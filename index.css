@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: rgb(100, 7, 71);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px white;
+    color: white;
+    background-color: rgba(5, 5, 86, 0.918);
+}
+
+#heading{
+    font-size: 30px;
+    text-align: center;
+}
+#stopwatch{
+    font-size: 50px;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
